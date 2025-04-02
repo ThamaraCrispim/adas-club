@@ -12,3 +12,7 @@ Gostaria de agradecer especialmente à Mariany e à Eduarda, que foram as primei
 
 🎭 Por que "Ada’s Club"?
 O nome do grupo é uma homenagem a Ada Lovelace, a primeira mulher programadora da história. Ela foi pioneira na computação e nos inspira a seguir aprendendo e inovando!
+🚀 Como participar?
+Siga este repositório para acompanhar atualizações.
+
+siga o nosso instagram 
