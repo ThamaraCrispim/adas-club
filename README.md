@@ -1,6 +1,3 @@
-Aqui está um modelo atualizado com a adição do Instagram:  
-
----
 
 # 💻 Ada’s Club  
 
@@ -28,7 +25,3 @@ O nome do grupo é uma homenagem a **Ada Lovelace**, a primeira mulher programad
 4. **Compartilhe aprendizados** e ajude outras integrantes do grupo.  
 
 Vamos crescer juntas na programação! 💜  
-
----
-
-Se precisar de mais ajustes ou quiser adicionar mais detalhes, me avise! 🚀
