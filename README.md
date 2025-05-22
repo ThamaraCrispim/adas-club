@@ -1,27 +1,12 @@
+# Ada’s Club
 
-# 💻 Ada’s Club  
+✨ **Sobre o grupo**
 
-## ✨ Sobre o grupo  
+O Ada’s Club nasceu de uma conversa entre uma querida amiga da faculdade, Izabela Dias, e eu. Falamos sobre a dificuldade de aprender programação sozinhas e como nos sentíamos solitárias nessa jornada. Percebemos que esse caminho pode ser desafiador, mas juntas podemos tornar o aprendizado mais leve, motivador e, principalmente, criar laços na área!
 
-O **Ada’s Club** nasceu de uma conversa entre **Izabela Dias** e eu, onde expressamos a dificuldade de aprender programação sozinhas. Percebemos que essa jornada pode ser desafiadora, mas juntas podemos tornar o aprendizado mais leve e motivador.  
+Foi assim que surgiu a ideia do Ada’s Club. Quero aproveitar para agradecer especialmente à Izabela por estar sempre ao meu lado.
 
-Criamos este grupo para:  
-✅ Estudar programação de forma colaborativa.  
-✅ Compartilhar materiais, artigos e boas práticas.  
-✅ Resolver desafios e desenvolver projetos juntas.  
-✅ Criar um espaço de apoio e crescimento na área de tecnologia.  
+Também gostaria de agradecer às colegas da faculdade que abraçaram esse projeto junto com a Izabela, com muito entusiasmo! Sem vocês, o Ada’s Club não seria a mesma coisa. 💜
 
-Gostaria de agradecer especialmente à **Mariany** e à **Eduarda**, que foram as primeiras a topar esse desafio! 🚀  
+**Mariana, Eduarda, Isabela, Bianca, Letícia, Bárbara!** Nosso grupo começou com 8 mulheres, mas desejamos que seja muito mais! Que todas saibam que não estão sozinhas!
 
-## 🎭 Por que "Ada’s Club"?  
-
-O nome do grupo é uma homenagem a **Ada Lovelace**, a primeira mulher programadora da história. Ela foi pioneira na computação e nos inspira a seguir aprendendo e inovando!  
-
-## 🚀 Como participar?  
-
-1. **Siga este repositório** para acompanhar atualizações.  
-2. **Contribua** adicionando materiais, resolvendo desafios ou participando das discussões.  
-3. **Siga nosso Instagram** para acompanhar novidades e interagir com a comunidade: [@adasclub]
-4. **Compartilhe aprendizados** e ajude outras integrantes do grupo.  
-
-Vamos crescer juntas na programação! 💜  
