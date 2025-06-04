@@ -1,93 +1,72 @@
-# Tópicos de Estudo — Lógica de Programação em R
 
-## Tópico 1: Variáveis e Operadores
+TÓPICOS DE ESTUDO
 
-**Variáveis:**  
-- Tipos de variáveis: Quantitativa e qualitativa  
-- Tipos de dados: numeric, integer, character, logical, factor  
+Lógica de programação e sintaxe
 
-**Operadores:**  
-- Aritméticos: `+`, `-`, `*`, `^`, `%`  
-- Lógicos: `==`, `!=`, `<=`, `&`, `|`  
-- Sequências: `seq()`, `rep()`  
+Tópico 1: Variáveis e Operadores
+Variáveis:
+Tipos de variáveis: Quantitativa e qualitativa
+Tipos de dados:  numeric, interger, character, logical, factor
+Operadores:
+Aritméticos: +, -, *, ^, %
+Lógicos: ==, !=, <=, &, |
+Sequências: seq(), rep()
 
----
+Tópico 2: Estrutura de dados
+Vector
+Matrix
+List
+Data.frame
+Fatiamento e Indexação
 
-## Tópico 2: Estrutura de Dados
+Tópico 3: Loops 
+if, else, ifelse
+for
+while
+next e break
 
-- Vector  
-- Matrix  
-- List  
-- Data.frame  
-- Fatiamento e Indexação  
+Tópico 4: Funções e funções vetorizadas
+Funções nativas do R: sum(), mean(), length(), paste()
+Criação de funções:
+Argumentos
+return()
+Variáveis globais vs. variáveis locais
+Funções lambda
+Funções vetorizadas
+apply(), lapply(), sapply()
+purrr:map()
 
----
+A partir desse ponto, já cobrimos toda a base lógica de programação, então seria ideal cobrir bastante prática que incluísse todos esses quatro tópicos. É bom ter exercícios que você não sabe qual tópico você usaria.
 
-## Tópico 3: Loops
+ Tópico 5 (extra): Importação
+Importação de dados
+Importação de pacotes 
 
-- Estruturas condicionais: `if`, `else`, `ifelse`  
-- Laços de repetição: `for`, `while`  
-- Controle de fluxo: `next` e `break`  
+Prática: 
+Análise descritiva e exploratória
 
----
 
-## Tópico 4: Funções e Funções Vetorizadas
+Tópico 6: Medidas descritivas
+Medidas de posição:
+Tendência central: mean(), median(), moda
+Outras: Quartis, quantis, percentis, min e max
+Medidas de posição:
+sd(), var(), range(), CV, amplitude, interquartil
+summary()
+Tópico 7: Manipulação de dados
+Dataframe:
+nrow(), ncol(), summary()
+Fatiamento: df$coluna, df[[‘coluna’]], df[a, b], df[a]
+dplyr e tidyr (MUITO IMPORTANTE)
+Tópico 8: gráficos no R e ggplot2
 
-- Funções nativas do R: `sum()`, `mean()`, `length()`, `paste()`  
-- Criação de funções:  
-  - Argumentos  
-  - `return()`  
-  - Variáveis globais vs. locais  
-  - Funções lambda  
-- Funções vetorizadas:  
-  - `apply()`, `lapply()`, `sapply()`  
-  - pacotes `purrr::map()`  
 
----
 
-## Prática
+TRABALHO FINAL: CRIAÇÃO DE UM MODELO DE LOGÍSTICA
+Tópicos, ementas, teoria: A PESQUISAR
 
-Após esses tópicos, o foco é fazer bastante prática, com exercícios que misturem os conteúdos para aplicar o raciocínio lógico e programação, sem aviso prévio do tópico a ser usado.
 
----
+REFERÊNCIAS
 
-## Tópico 5 (Extra): Importação
+          https://www.kaggle.com/datasets/uciml/iris
 
-- Importação de dados  
-- Importação de pacotes  
-
----
-
-## Tópico 6: Medidas Descritivas
-
-- Medidas de posição:  
-  - Tendência central: `mean()`, `median()`, moda  
-  - Quartis, quantis, percentis, mínimo e máximo  
-- Medidas de dispersão:  
-  - `sd()`, `var()`, `range()`, coeficiente de variação (CV), amplitude, intervalo interquartil  
-- Função `summary()`  
-
----
-
-## Tópico 7: Manipulação de Dados
-
-- Data.frame:  
-  - `nrow()`, `ncol()`, `summary()`  
-  - Fatiamento: `df$coluna`, `df[['coluna']]`, `df[a, b]`, `df[a]`  
-- Pacotes importantes: `dplyr` e `tidyr` (MUITO IMPORTANTE)  
-
----
-
-## Tópico 8: Gráficos no R e ggplot2
-
----
-
-# Trabalho Final: Criação de um Modelo de Regressão Logística
-
-- Tópicos, ementas e teoria a pesquisar  
-
----
-
-# Referências
-
-- Dataset Iris: [https://www.kaggle.com/datasets/uciml/iris](https://www.kaggle.com/datasets/uciml/iris)
