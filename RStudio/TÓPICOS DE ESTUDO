@@ -1,95 +1,93 @@
-\section*{Tópicos de Estudo}
+# Tópicos de Estudo — Lógica de Programação em R
 
-\subsection*{Lógica de Programação e Sintaxe}
+## Tópico 1: Variáveis e Operadores
 
-\subsubsection*{Tópico 1: Variáveis e Operadores}
+**Variáveis:**  
+- Tipos de variáveis: Quantitativa e qualitativa  
+- Tipos de dados: numeric, integer, character, logical, factor  
 
-\textbf{Variáveis:} \\
-Tipos de variáveis: Quantitativa e Qualitativa \\
-Tipos de dados: \texttt{numeric}, \texttt{integer}, \texttt{character}, \texttt{logical}, \texttt{factor} \\
+**Operadores:**  
+- Aritméticos: `+`, `-`, `*`, `^`, `%`  
+- Lógicos: `==`, `!=`, `<=`, `&`, `|`  
+- Sequências: `seq()`, `rep()`  
 
-\textbf{Operadores:} \\
-Aritméticos: \texttt{+}, \texttt{-}, \texttt{*}, \texttt{\^}, \texttt{\%} \\
-Lógicos: \texttt{==}, \texttt{!=}, \texttt{<=}, \texttt{\&}, \texttt{|} \\
-Sequências: \texttt{seq()}, \texttt{rep()}
+---
 
-\subsubsection*{Tópico 2: Estrutura de Dados}
+## Tópico 2: Estrutura de Dados
 
-\begin{itemize}
-    \item \texttt{Vector}
-    \item \texttt{Matrix}
-    \item \texttt{List}
-    \item \texttt{Data.frame}
-    \item Fatiamento e Indexação
-\end{itemize}
+- Vector  
+- Matrix  
+- List  
+- Data.frame  
+- Fatiamento e Indexação  
 
-\subsubsection*{Tópico 3: Loops}
+---
 
-\begin{itemize}
-    \item \texttt{if}, \texttt{else}, \texttt{ifelse}
-    \item \texttt{for}
-    \item \texttt{while}
-    \item \texttt{next} e \texttt{break}
-\end{itemize}
+## Tópico 3: Loops
 
-\subsubsection*{Tópico 4: Funções e Funções Vetorizadas}
+- Estruturas condicionais: `if`, `else`, `ifelse`  
+- Laços de repetição: `for`, `while`  
+- Controle de fluxo: `next` e `break`  
 
-Funções nativas do R: \texttt{sum()}, \texttt{mean()}, \texttt{length()}, \texttt{paste()} \\
+---
 
-Criação de funções: 
-\begin{itemize}
-    \item Argumentos
-    \item \texttt{return()}
-    \item Variáveis globais vs. variáveis locais
-    \item Funções lambda
-    \item Funções vetorizadas: \texttt{apply()}, \texttt{lapply()}, \texttt{sapply()}, \texttt{purrr::map()}
-\end{itemize}
+## Tópico 4: Funções e Funções Vetorizadas
 
-\textit{A partir deste ponto, já cobrimos toda a base lógica de programação. É ideal praticar exercícios que incluam todos esses quatro tópicos sem saber antecipadamente qual usar.}
+- Funções nativas do R: `sum()`, `mean()`, `length()`, `paste()`  
+- Criação de funções:  
+  - Argumentos  
+  - `return()`  
+  - Variáveis globais vs. locais  
+  - Funções lambda  
+- Funções vetorizadas:  
+  - `apply()`, `lapply()`, `sapply()`  
+  - pacotes `purrr::map()`  
 
-\subsubsection*{Tópico 5 (Extra): Importação}
+---
 
-\begin{itemize}
-    \item Importação de dados
-    \item Importação de pacotes
-\end{itemize}
+## Prática
 
-\textbf{Prática:} \\
-Análise descritiva e exploratória
+Após esses tópicos, o foco é fazer bastante prática, com exercícios que misturem os conteúdos para aplicar o raciocínio lógico e programação, sem aviso prévio do tópico a ser usado.
 
-\subsubsection*{Tópico 6: Medidas Descritivas}
+---
 
-\textbf{Medidas de posição:}
-\begin{itemize}
-    \item Tendência central: \texttt{mean()}, \texttt{median()}, moda
-    \item Outras: Quartis, quantis, percentis, \texttt{min} e \texttt{max}
-\end{itemize}
+## Tópico 5 (Extra): Importação
 
-\textbf{Medidas de dispersão:}
-\begin{itemize}
-    \item \texttt{sd()}, \texttt{var()}, \texttt{range()}, CV, amplitude, interquartil
-    \item \texttt{summary()}
-\end{itemize}
+- Importação de dados  
+- Importação de pacotes  
 
-\subsubsection*{Tópico 7: Manipulação de Dados}
+---
 
-\texttt{Data.frame:}
-\begin{itemize}
-    \item \texttt{nrow()}, \texttt{ncol()}, \texttt{summary()}
-    \item Fatiamento: \texttt{df\$coluna}, \texttt{df[['coluna']]}, \texttt{df[a, b]}, \texttt{df[a]}
-    \item \texttt{dplyr} e \texttt{tidyr} (\textbf{muito importante})
-\end{itemize}
+## Tópico 6: Medidas Descritivas
 
-\subsubsection*{Tópico 8: Gráficos no R e ggplot2}
+- Medidas de posição:  
+  - Tendência central: `mean()`, `median()`, moda  
+  - Quartis, quantis, percentis, mínimo e máximo  
+- Medidas de dispersão:  
+  - `sd()`, `var()`, `range()`, coeficiente de variação (CV), amplitude, intervalo interquartil  
+- Função `summary()`  
 
-\begin{itemize}
-    \item Criação e personalização de gráficos com \texttt{ggplot2}
-\end{itemize}
+---
 
-\subsection*{Trabalho Final: Criação de um Modelo de Logística}
+## Tópico 7: Manipulação de Dados
 
-\textit{Tópicos, ementas, teoria: A pesquisar}
+- Data.frame:  
+  - `nrow()`, `ncol()`, `summary()`  
+  - Fatiamento: `df$coluna`, `df[['coluna']]`, `df[a, b]`, `df[a]`  
+- Pacotes importantes: `dplyr` e `tidyr` (MUITO IMPORTANTE)  
 
-\subsection*{Referências}
+---
 
-\url{https://www.kaggle.com/datasets/uciml/iris}
+## Tópico 8: Gráficos no R e ggplot2
+
+---
+
+# Trabalho Final: Criação de um Modelo de Regressão Logística
+
+- Tópicos, ementas e teoria a pesquisar  
+
+---
+
+# Referências
+
+- Dataset Iris: [https://www.kaggle.com/datasets/uciml/iris](https://www.kaggle.com/datasets/uciml/iris)
