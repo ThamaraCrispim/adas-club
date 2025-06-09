@@ -1,1 +1,74 @@
 # script de variáveis
+#Tópico 1: Variáveis e Operadores
+#Variáveis:
+# Tipos de variáveis: Quantitativa e qualitativa
+#Tipos de dados:  numeric, interger, character, logical, factor
+#Operadores:
+#  Aritméticos: +, -, *, ^, %
+#Lógicos: ==, !=, <=, &, |
+#  Sequências: seq(), rep()
+
+
+
+#Tudo é um Objeto 
+
+#Entro do Objeto, temos as classe mais simples
+#exemplo
+#Numero, texto, variaveis lógicas
+#Temos outra um pouco mais complexas que seria de amazenamento
+#Matriz,lista, dataframes e etc.
+#Objeto numerico:
+my <- 1:10
+
+#rodando código:
+#control + entrer: rodar a linha
+#control + shift + entrer: rodar todo o codigo
+
+#Passo 1: conhecendo os nossos objetos
+print(my)
+#str(my) Transforma o Objeto em uma representação de texto
+
+str(my)
+
+#Objeto de caractere
+
+my.char <- 'acb'
+
+#Podemos perdi a classe do Objeto
+
+class(my)
+
+#Podemos conhece ambos da mesma forma 
+
+print(my.char)
+str(my.char)
+class(my.char)
+#Objetos no R
+##Basicos:
+   #Numerico;
+   #Caractere;
+   #fator;
+   #lógico(true/flase)
+##Complexos(amazenamentos)
+  #Dataframes
+  #Lista
+  #Matrizes
+
+#Primeira lição do r! conhece a classe dos seus objetos
+#Tenha certeza que as classe estão corretamenre definidas
+
+#Formato internacional de números e datas
+#Todo decimal é com . (e não virgula)
+my.decimal <- 0.1
+class(my.decimal)
+
+#toda a data é isso (YYY-MM-DD)
+my.date <- as.Date('2021-10-02')  #Não é 02/10/2021
+
+#as.date('2021-10-02') transform o número em data
+class(my.date)
+print(my.date)
+
+#eviar cararteres latinha 
+#exemplo:
+#Minha.varíavel <- 1 #ç,é,i,ã e etc.
