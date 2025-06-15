@@ -1,1 +1,10 @@
-# script de variáveis
+# Tópico 4: Funções e funções vetorizadas
+Funções nativas do R: sum(), mean(), length(), paste()
+Criação de funções:
+Argumentos
+return()
+Variáveis globais vs. variáveis locais
+Funções lambda
+Funções vetorizadas
+apply(), lapply(), sapply()
+purrr:map()
