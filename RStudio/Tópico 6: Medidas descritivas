@@ -1,1 +1,7 @@
-# script de variáveis
+# Tópico 6: Medidas descritivas
+Medidas de posição:
+Tendência central: mean(), median(), moda
+Outras: Quartis, quantis, percentis, min e max
+Medidas de posição:
+sd(), var(), range(), CV, amplitude, interquartil
+summary()
