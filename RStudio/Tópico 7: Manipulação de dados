@@ -1,1 +1,6 @@
+# Tópico 7: Manipulação de dados
+Dataframe:
+nrow(), ncol(), summary()
+Fatiamento: df$coluna, df[[‘coluna’]], df[a, b], df[a]
+dplyr e tidyr (MUITO IMPORTANTE)
 
