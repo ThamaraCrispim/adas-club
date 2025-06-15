@@ -1,73 +1,108 @@
-#Tópico 1: Variáveis e Operadores
-#Variáveis:
-# Tipos de variáveis: Quantitativa e qualitativa
-#Tipos de dados:  numeric, interger, character, logical, factor
-#Operadores:
-#  Aritméticos: +, -, *, ^, %
-#Lógicos: ==, !=, <=, &, |
-#  Sequências: seq(), rep()
+#############################################
+# Tópico 1: Variáveis e Operadores no R
+# Desenvolvido por Thamara Crispim
+#############################################
+
+### VARIÁVEIS ###
+
+# Em R, criamos variáveis usando o operador de atribuição "<-"
+# Variáveis servem para armazenar diferentes tipos de dados
+
+# Variável numérica
+nota <- 8.5
+
+# Variável inteira (precisa da função as.integer)
+idade <- as.integer(25)
+
+# Variável de texto (caractere)
+nome <- "Thamara"
+
+# Variável lógica (booleana)
+aprovada <- TRUE
+
+# Variável fator (útil para dados categóricos)
+sexo <- factor("Feminino")
+
+# Verificando as classes das variáveis
+class(nota)      # numeric
+class(idade)     # integer
+class(nome)      # character
+class(aprovada)  # logical
+class(sexo)      # factor
 
 
+### TIPOS DE VARIÁVEIS (CONCEITOS) ###
 
-#Tudo é um Objeto 
+# Variáveis Quantitativas: representam números, podem ser medidas
+altura <- 1.65   # exemplo de variável quantitativa
 
-#Entro do Objeto, temos as classe mais simples
-#exemplo
-#Numero, texto, variaveis lógicas
-#Temos outra um pouco mais complexas que seria de amazenamento
-#Matriz,lista, dataframes e etc.
-#Objeto numerico:
-my <- 1:10
+# Variáveis Qualitativas: representam categorias, grupos
+cor_olhos <- factor("Castanho")  # exemplo de variável qualitativa
 
-#rodando código:
-#control + entrer: rodar a linha
-#control + shift + entrer: rodar todo o codigo
 
-#Passo 1: conhecendo os nossos objetos
-print(my)
-#str(my) Transforma o Objeto em uma representação de texto
+### OPERADORES ARITMÉTICOS ###
 
-str(my)
+# Soma
+3 + 2    # 5
 
-#Objeto de caractere
+# Subtração
+5 - 1    # 4
 
-my.char <- 'acb'
+# Multiplicação
+4 * 2    # 8
 
-#Podemos perdi a classe do Objeto
+# Divisão
+10 / 2   # 5
 
-class(my)
+# Potência
+2 ^ 3    # 8
 
-#Podemos conhece ambos da mesma forma 
+# Resto da divisão
+10 %% 3  # 1
 
-print(my.char)
-str(my.char)
-class(my.char)
-#Objetos no R
-##Basicos:
-   #Numerico;
-   #Caractere;
-   #fator;
-   #lógico(true/flase)
-##Complexos(amazenamentos)
-  #Dataframes
-  #Lista
-  #Matrizes
+# Raiz quadrada
+sqrt(49) # 7
 
-#Primeira lição do r! conhece a classe dos seus objetos
-#Tenha certeza que as classe estão corretamenre definidas
+# Logaritmo
+log(10)             # logaritmo natural
+log(10, base = 10)  # logaritmo de base 10
 
-#Formato internacional de números e datas
-#Todo decimal é com . (e não virgula)
-my.decimal <- 0.1
-class(my.decimal)
 
-#toda a data é isso (YYY-MM-DD)
-my.date <- as.Date('2021-10-02')  #Não é 02/10/2021
+### OPERADORES LÓGICOS ###
 
-#as.date('2021-10-02') transform o número em data
-class(my.date)
-print(my.date)
+# Igual a
+5 == 5   # TRUE
 
-#eviar cararteres latinha 
-#exemplo:
-#Minha.varíavel <- 1 #ç,é,i,ã e etc.
+# Diferente de
+5 != 3   # TRUE
+
+# Menor ou igual
+4 <= 4   # TRUE
+
+# E lógico (ambos precisam ser verdadeiros)
+TRUE & FALSE  # FALSE
+
+# OU lógico (pelo menos um precisa ser verdadeiro)
+TRUE | FALSE  # TRUE
+
+# Negação (NÃO)
+!TRUE  # FALSE
+
+
+### SEQUÊNCIAS ###
+
+# seq(): cria uma sequência numérica
+seq(1, 10, by = 2)  # 1, 3, 5, 7, 9
+
+# rep(): repete valores
+rep(1:3, times = 2)   # 1 2 3 1 2 3
+rep("R", times = 5)   # "R" "R" "R" "R" "R"
+
+### BOAS PRÁTICAS ###
+
+# Sempre nomeie variáveis de forma clara e sem acentos
+# Evite usar caracteres especiais (ex: ç, é, ã)
+# Use class() ou str() para entender seus objetos
+# Execute uma linha com Ctrl + Enter no RStudio
+# Execute o script inteiro com Ctrl + Shift + Enter
+
